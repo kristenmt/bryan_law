@@ -98,6 +98,11 @@ body {
   font-family: "Lato", sans-serif;
   color: #333366;
 }
+form {
+  width: 70%;
+  padding-top: 5%;
+  padding-bottom: 25%;
+}
 /* footer */
 footer {
   background-color: white;
