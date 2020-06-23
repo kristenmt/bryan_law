@@ -98,6 +98,9 @@ body {
   font-family: "Lato", sans-serif;
   color: #333366;
 }
+#bryan-photo {
+  float: left;
+}
 form {
   width: 70%;
   padding-top: 5%;
