@@ -140,8 +140,20 @@ blockquote:after {
 #bryan-photo {
   float: left;
 }
+.payment {
+  background-color: rgba(252, 249, 247, 0.404);
+  border-radius: 10px;
+  /* margin: 1%; */
+  /* padding: 2%; */
+  /* float: left; */
+  width: 50%;
+  font-family: "Baskervville", serif;
+  font-style: italic;
+  color: black;
+  height: 50%;
+}
 form {
-  width: 70%;
+  width: 60%;
   padding-top: 5%;
   padding-bottom: 25%;
 }
