@@ -141,16 +141,29 @@ blockquote:after {
   float: left;
 }
 .payment {
-  background-color: rgba(252, 249, 247, 0.404);
+  /* background-color: rgba(252, 249, 247, 0.404); */
+  background-color: white;
   border-radius: 10px;
   /* margin: 1%; */
-  /* padding: 2%; */
+  padding: 1%;
   /* float: left; */
-  width: 50%;
-  font-family: "Baskervville", serif;
+  /* padding-right: -13%; */
+  /* width: 80%; */
+  font-family: "Lato", sans-serif;
+  /* font-style: italic; */
+  font-weight: 300;
+  color: #333366;
+  height: 70%;
+  margin-top: 15%;
+}
+.payment h2 {
+  font-size: 100%;
+  letter-spacing: 2px;
+  border-bottom: 1px solid #ff9933;
+}
+.payment h4 {
+  font-size: 100%;
   font-style: italic;
-  color: black;
-  height: 50%;
 }
 form {
   width: 60%;
