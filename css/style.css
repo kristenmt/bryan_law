@@ -85,18 +85,32 @@ body {
   color: white;
 }
 .testimonials {
-  background-color: white;
+  /* background-color: white; */
   padding: 3%;
   /* margin-bottom: 20%; */
 }
+#box1,
+#box2 {
+  background-color: rgba(252, 249, 247, 0.404);
+  border-radius: 10px;
+  margin: 1%;
+  padding: 2%;
+}
+#box1 a,
+#box2 a {
+  color: #333366;
+}
 .testimonials h4 {
   font-family: "Baskervville", serif;
+  font-style: italic;
   color: #ff9933;
   text-align: center;
+  font-size: 200%;
 }
 .testimonials p {
   font-family: "Lato", sans-serif;
-  color: #333366;
+  /* color: #333366; */
+  color: black;
 }
 #bryan-photo {
   float: left;
@@ -114,4 +128,5 @@ footer {
 }
 .disclaimer {
   background-color: white;
+  padding-right: 2%;
 }
