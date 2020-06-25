@@ -14,7 +14,9 @@ html {
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
 }
-
+p {
+  letter-spacing: 2px;
+}
 .clearfix {
   zoom: 1;
 }
@@ -76,13 +78,19 @@ body {
 .section-bio h3,
 .section-contact h3 {
   font-family: "Baskervville", serif;
-  color: white;
+  font-size: 200%;
+  letter-spacing: 3px;
+  color: #ff9933;
 }
 .section-home p,
 .section-bio p,
 .section-contact p {
   font-family: "Lato", sans-serif;
   color: white;
+  font-weight: 200;
+}
+#intro {
+  width: 70%;
 }
 .testimonials {
   padding: 3%;
@@ -143,6 +151,14 @@ blockquote:after {
 #bryan-photo img {
   border: 3px solid #ff9933;
 }
+h6 {
+  font-family: "Baskervville", serif;
+  font-size: 155%;
+  color: #ff9933;
+}
+.article-link {
+  color: #ff9933;
+}
 .payment {
   /* background-color: rgba(252, 249, 247, 0.404); */
   background-color: white;
@@ -188,6 +204,9 @@ footer {
   background-color: white;
   font-family: "Lato", sans-serif;
   color: #333366;
+}
+footer .p {
+  font-weight: 500;
 }
 .disclaimer {
   background-color: white;
