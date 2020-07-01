@@ -115,14 +115,16 @@ blockquote:after {
   bottom: -0.5em;
 }
 #box1,
-#box2 {
+#box2,
+#box3 {
   background-color: rgba(252, 249, 247, 0.404);
   border-radius: 10px;
   margin: 1%;
   padding: 2%;
 }
 #box1 a,
-#box2 a {
+#box2 a,
+#box3 a {
   color: #333366;
 }
 .testimonials h4 {
@@ -138,7 +140,8 @@ blockquote:after {
   color: black;
 }
 #test1,
-#test2 {
+#test2,
+#test3 {
   padding-top: 10%;
 }
 .bio-row {
