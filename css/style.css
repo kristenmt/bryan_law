@@ -17,6 +17,10 @@ html {
 p {
   letter-spacing: 2px;
 }
+a:hover {
+  color: white;
+  text-decoration: none;
+}
 .clearfix {
   zoom: 1;
 }
@@ -154,12 +158,16 @@ blockquote:after {
 #bryan-photo img {
   border: 3px solid #ff9933;
 }
+#sm {
+  margin-top: 10%;
+}
 h6 {
   font-family: "Baskervville", serif;
   font-size: 155%;
   color: #ff9933;
 }
-.article-link {
+.article-link,
+#sm {
   color: #ff9933;
 }
 .payment {
