@@ -155,6 +155,9 @@ blockquote:after {
 #bryan-photo {
   float: left;
 }
+#bryan-photo-resp {
+  display: none;
+}
 #bryan-photo img {
   border: 3px solid #ff9933;
 }
@@ -170,6 +173,10 @@ h6 {
 .article-link,
 #sm {
   color: #ff9933;
+}
+.iframe {
+  width: 560px;
+  height: 340px;
 }
 .payment {
   /* background-color: rgba(252, 249, 247, 0.404); */
@@ -317,13 +324,35 @@ footer p {
 /* Small devices */
 @media (max-width: 414px) {
   .title h1 {
-    font-size: 110%;
+    font-size: 120%;
   }
   .title h2 {
+    font-size: 85%;
+  }
+  .title {
+    height: 12%;
+  }
+  #home h3 {
+    font-size: 90%;
+  }
+  #home p {
     font-size: 80%;
   }
+  .testimonials h4 {
+    font-size: 120%;
+  }
+  #test1,
+  #test2,
+  #test3 {
+    padding-top: 10%;
+    font-size: 60%;
+  }
+  .card-link {
+    font-size: 70%;
+  }
+
   .fa {
-    width: 50%;
+    width: 90%;
   }
   footer p {
     font-size: 50%;
@@ -331,14 +360,54 @@ footer p {
   footer {
     margin-top: 40px;
   }
+  .disclaimer p {
+    font-size: 40%;
+  }
   .navbar-brand img {
     width: 50%;
     height: 50%;
   }
   .navbar ul {
-    width: 90%;
+    width: 98%;
     /* float: left; */
     padding-left: 30%;
-    margin-top: -20%;
+    margin-top: -25%;
+    font-size: 70%;
+  }
+  .bio-tag h3 {
+    font-size: 10%;
+  }
+  #bryan-photo-resp {
+    display: block;
+  }
+  #bryan-photo-main {
+    display: none;
+  }
+  .iframe {
+    width: 70%;
+    height: auto;
+  }
+  #bryan-photo-resp img {
+    width: 50%;
+    float: right;
+    display: inline-block;
+    text-align: center;
+  }
+  #sm {
+    margin-top: 5%;
+    text-align: right;
+    float: right;
+  }
+  .bio-row {
+    padding-right: 15%;
+  }
+  #bio p {
+    font-size: 65%;
+  }
+  .bio-row h3 {
+    font-size: 100%;
+  }
+  .bio-row h6 {
+    font-size: 70%;
   }
 }
