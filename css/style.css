@@ -304,6 +304,41 @@ footer p {
     font-size: 170%;
   }
   .fa {
-    width: 40%;
+    width: 50%;
+  }
+  footer p {
+    font-size: 50%;
+  }
+  footer {
+    margin-top: 40px;
+  }
+}
+
+/* Small devices */
+@media (max-width: 414px) {
+  .title h1 {
+    font-size: 110%;
+  }
+  .title h2 {
+    font-size: 80%;
+  }
+  .fa {
+    width: 50%;
+  }
+  footer p {
+    font-size: 50%;
+  }
+  footer {
+    margin-top: 40px;
+  }
+  .navbar-brand img {
+    width: 50%;
+    height: 50%;
+  }
+  .navbar ul {
+    width: 90%;
+    /* float: left; */
+    padding-left: 30%;
+    margin-top: -20%;
   }
 }
