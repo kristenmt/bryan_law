@@ -174,7 +174,8 @@ h6 {
 #sm {
   color: #ff9933;
 }
-.iframe {
+.iframe,
+.map-iframe {
   width: 560px;
   height: 340px;
 }
@@ -383,7 +384,8 @@ footer p {
   #bryan-photo-main {
     display: none;
   }
-  .iframe {
+  .iframe,
+  .map-iframe {
     width: 70%;
     height: auto;
   }
@@ -409,5 +411,12 @@ footer p {
   }
   .bio-row h6 {
     font-size: 70%;
+  }
+  .payment {
+    margin-left: 18%;
+  }
+  .map h6 {
+    font-size: 80%;
+    padding-top: 5%;
   }
 }
