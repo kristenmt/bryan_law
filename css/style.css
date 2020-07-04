@@ -435,3 +435,35 @@ footer p {
     text-align: center;
   }
 }
+/* Small devices */
+@media (max-width: 375px) {
+  .navbar ul {
+    width: 95%;
+    padding-left: 22%;
+    margin-top: -25%;
+    font-size: 60%;
+  }
+  .container-fluid {
+    padding-left: 0;
+    margin-left: -10px;
+  }
+  .section-contact {
+    padding-left: 5%;
+  }
+  #contact h3 {
+    font-size: 80%;
+  }
+  .payment h2,
+  .payment h4 {
+    font-size: 70%;
+  }
+  .map h6 {
+    margin-left: 5%;
+    /* font-size: 98%; */
+    width: 80%;
+    padding-left: 20%;
+  }
+  .fa {
+    width: 120%;
+  }
+}
