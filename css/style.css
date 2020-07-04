@@ -232,13 +232,14 @@ footer {
   background-color: white;
   font-family: "Lato", sans-serif;
   color: #333366;
+  height: auto;
 }
 footer p {
   font-weight: 500;
 }
 .disclaimer {
   background-color: white;
-  padding-right: 2%;
+  /* padding-right: 2%; */
 }
 /* Facebook */
 .fa {
