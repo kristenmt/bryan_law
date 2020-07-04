@@ -337,11 +337,15 @@ footer p {
   .title {
     height: 12%;
   }
+  #intro {
+    width: 100%;
+    padding-right: 8%;
+  }
   #home h3 {
     font-size: 90%;
   }
   #home p {
-    font-size: 80%;
+    font-size: 70%;
   }
   .testimonials h4 {
     font-size: 120%;
@@ -357,16 +361,18 @@ footer p {
   }
 
   .fa {
-    width: 90%;
+    width: 92%;
   }
   footer p {
     font-size: 50%;
+    line-height: 100%;
   }
   footer {
     margin-top: 40px;
   }
   .disclaimer p {
-    font-size: 40%;
+    font-size: 33%;
+    line-height: 100%;
   }
   .navbar-brand img {
     width: 50%;
@@ -394,33 +400,38 @@ footer p {
     height: auto;
   }
   #bryan-photo-resp img {
-    width: 50%;
+    width: 40%;
     float: right;
     display: inline-block;
     text-align: center;
   }
   #sm {
-    margin-top: 5%;
+    margin-top: 3%;
     text-align: right;
     float: right;
-  }
-  .bio-row {
-    padding-right: 15%;
+    padding-right: 5%;
+    font-size: 70%;
   }
   #bio p {
-    font-size: 65%;
+    font-size: 55%;
+    line-height: 100%;
   }
   .bio-row h3 {
     font-size: 100%;
+    margin-top: -5%;
   }
   .bio-row h6 {
     font-size: 70%;
   }
   .payment {
-    margin-left: 18%;
+    margin-left: 23%;
+    padding: 2%;
+    width: 50%;
+    margin-top: 1%;
   }
   .map h6 {
     font-size: 80%;
     padding-top: 5%;
+    text-align: center;
   }
 }
